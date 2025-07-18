@@ -49,6 +49,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'ip_tracking.middleware.RequestLoggingMiddleware',
+    'ip_tracking.middleware.BlockIPMiddleware',
 ]
 
 ROOT_URLCONF = 'alx_backend_security.urls'
